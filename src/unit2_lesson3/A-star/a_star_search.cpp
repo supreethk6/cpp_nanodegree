@@ -55,7 +55,13 @@ int Heuristic(int x1, int y1, int x2, int y2) {
 void AddToOpen(int x, int y, int g, int h, vector<vector<int>> &openlist, vector<vector<State>> &grid) {
   // Add node to open vector, and mark grid cell as closed.
   openlist.push_back(vector<int>{x, y, g, h});
-  grid[x][y] = State::kClosed;
+  // check if x is less than board's row (5) and y is less than board's column (6)
+  if (x < grid.size() && y < grid[x].size()) {
+    grid[x][y] = State::kClosed;
+  }
+  else {
+    cout << "Trying to add Invalid Path" << std::endl;
+  }
 }
 
 
