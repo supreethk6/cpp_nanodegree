@@ -138,8 +138,8 @@ void TestSearch() {
     cout << "Search(board, {4,5}, {4,5})" << "\n";
     cout << "Solution board: " << "\n";
     PrintVectorOfVectors(solution);
-    // cout << "Your board: " << "\n";
-    // PrintVectorOfVectors(output);
+    cout << "Your board: " << "\n";
+    PrintVectorOfVectors(output);
     cout << "\n";
   } else {
     cout << "passed" << "\n";
