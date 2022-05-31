@@ -9,7 +9,7 @@
               "-g",
               "${file}",
               "-o",
-              "${fileDirname}/pgm_output.out"
+              "${fileDirname}/pgm_output"
           ],
           "options": {
               "cwd": "/usr/bin"
