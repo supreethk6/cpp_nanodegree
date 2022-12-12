@@ -8,3 +8,12 @@
  * @copyright Copyright (c) 2022
  * 
  */
+
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+int main() {
+  cout << "Hello!!" << endl;
+}

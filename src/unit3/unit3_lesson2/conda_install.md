@@ -22,4 +22,11 @@
   ```
   conda create --name cpp_env python=3
   conda activate cpp_env
+  conda install xeus-cling -c conda-forge -n cpp_env --yes
   ```
+- Restart the conda environment and then install jupyter
+  ```
+  sudo apt install jupyter
+  ```
+- Open the workspace in VS code and creata a new ipynb file and select the c++ interpreter
+- Happy coding!!!
